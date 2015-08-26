@@ -105,7 +105,7 @@ html {
 
 
 .image {
-    padding: 5px;
+    margin : 5px;
     background-size : cover;
     background-repeat : no-repeat;
     background-position : center center;
