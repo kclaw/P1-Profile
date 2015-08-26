@@ -2,47 +2,55 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="styles.css">
+        <title>Portfolio</title>
     </head>
     <body>
-        <header class="row">
-            <div class="col-3">
-                <img src="images/udacity-logo.jpg"/>
-            </div>
-            <div class="col-4"></div>
-            <div class="col-5">
-                <div id="my-name"><h1>Law Kwan Chi</h1></div>
-                <div id="my-title"><h4>front-end ninja</h4></div>
-            </div>
-        </header>
-        <section class="row">
-            <article class="col-12">
-                <div id="image1" class="image"/>
-            </article>
-        </section>
-        <section class="row">
-            <header id="my-work-header" class="col-12">
-                <h1>Featured Work</h1>
+        <main class="container">
+            <header class="row">
+                <div class="col-3">
+                    <img src="images/udacity-logo.jpg" alt="udacity logo" class="image">
+                </div>
+                <div class="col-4 nothing"></div>
+                <div class="col-5">
+                    <div id="my-name">
+                        <h1>Law Kwan Chi</h1>
+                    </div>
+                    <div id="my-title">
+                        <h4>front-end ninja</h4>
+                    </div>
+                </div>
             </header>
-            <article class="col-4">
-                <div id="image2" class="image"></div>
-                <h2 class="work-title">
-                    Lovely Cats
-                </h2>
-            </article>
-            <article class="col-4">
-                <div id="image3" class="image"></div>
-                <h2 class="work-title">
-                    Big Cat
-                </h2>
-            </article>
-            <article class="col-4">
-                <div id="image4" class="image"></div>
-                <h2 class="work-title">
-                    Wet Cat
-                </h2>
-            </article>
-        </section>
+            <section class="row">
+                    <article class="col-12">
+                        <img src="images/large_pic.jpg" alt="funny cat" class="image">
+                    </article>
+            </section>
+            <section class="row">
+                <header id="my-work-header" class="col-12">
+                    <h1>Featured Work</h1>
+                </header>
+                <article class="col-4">
+                    <img src="images/small_pic1.jpg" alt="lovely cats" class="image">
+                    <p class="my-work-title">
+                        Lovely Cats
+                    </p>
+                </article>
+                <article class="col-4">
+                    <img src="images/small_pic2.jpg" alt="big cat" class="image">
+                    <p class="my-work-title">
+                        Big Cat
+                    </p>
+                </article>
+                <article class="col-4">
+                    <img src="images/small_pic3.jpg" alt="web cat" class="image">
+                    <p class="my-work-title">
+                        Wet Cat
+                    </p>
+                </article>
+            </section>
+        </main>
     </body>
 </html>
